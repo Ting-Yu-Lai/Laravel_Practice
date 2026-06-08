@@ -90,6 +90,10 @@ protected $fillable = ['name', 'description', 'price', 'stock', 'is_available'];
 
 ---
 
+> 📋 **[練習 1-2 實作回顧 →](docs/review-phase1-2.md)**
+
+---
+
 ### 練習 1-3：SQL 與 Eloquent 對照
 
 **題目**：用 Eloquent 重現以下 SQL，並說明效能差異。
