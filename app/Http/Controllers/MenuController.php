@@ -115,5 +115,12 @@ class MenuController extends Controller
     {
         //
         $menu = $this->menuService->destroy($id);
+        return response()->json(
+            [
+                'code' => 200,
+                'status' => 'success',
+                'data' => $menu
+            ]
+        );
     }
 }
